@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+table {
+    position: relative;
+    border-collapse: collapse;
+}
+thead {
+    position: sticky;
+    top: -1px;
+}
+thead > tr {
+    background-color: rgb(164, 164, 164);
+}
+tr {
+    background-color: white;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+tbody > tr:nth-child(even) {
+    background-color: #c9ff90;
+}
