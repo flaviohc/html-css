@@ -46,10 +46,9 @@ main{
 }
 .logo:hover{
     position:relative;
-    top:-5px;
-    left:-5px;    
+    transform: translate(-23px,-3px);
     box-shadow: 0px 0px 10px white;
-    transition: 1s;
+    transition: transform 0.5s, box-shadow 1s;
 }
 
 #redes {
